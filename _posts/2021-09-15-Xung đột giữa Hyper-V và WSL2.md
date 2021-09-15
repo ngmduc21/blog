@@ -24,7 +24,7 @@ DISM /Online /Enable-Feature /All /FeatureName:Microsoft-Hyper-V
 
 Để bật Hyper-V, ta vào Control Panel → Programs → Turn Windows Features on or off → Check ở ô Hyper-V
 
-![Untitled](/ezdevguy_blog/assets/post03/Untitled.png)
+![Untitled](/blog/assets/post03/Untitled.png)
 
 Để bật VT-x ta vào BIOS (tùy các hãng sản xuất mà cách vào BIOS sẽ khác nhau) và tìm bật tùy chọn Intel® Virtualization Technology.
 
@@ -34,7 +34,7 @@ DISM /Online /Enable-Feature /All /FeatureName:Microsoft-Hyper-V
 - Windows Hypervisor Platform
 - Windows Subsystem for Linux
 
-![Untitled1](/ezdevguy_blog/assets/post03/Untitled1.png)
+![Untitled1](/blog/assets/post03/Untitled1.png)
 
 Khi check xong và chờ máy restart, ta có thể bắt đầu lên Microsoft Store để download HĐH ta cần tích hợp và bắt đầu chạy. Chi tiết tham khảo tại [đây](https://docs.microsoft.com/en-us/windows/wsl/install-win10) 
 
@@ -44,15 +44,15 @@ Ta dùng 2 công cụ sau:
 
 - [Intel® Processor Identification Utility](https://www.intel.com/content/www/us/en/support/articles/000005495.html) để kiểm tra hệ thống của chúng ta có hỗ trợ công nghệ VT-x hay không. Để ý 2 dòng sau:
 
-![Untitled2](/ezdevguy_blog/assets/post03/Untitled2.png)
+![Untitled2](/blog/assets/post03/Untitled2.png)
 
 - Task Manager của Windows: để ý thông số "Virtualization"
 
-![Untitled3](/ezdevguy_blog/assets/post03/Untitled3.png)
+![Untitled3](/blog/assets/post03/Untitled3.png)
 
 - So sánh trong bảng sau:
 
-![tablesosanh](/ezdevguy_blog/assets/post03/tablesosanh.png)
+![tablesosanh](/blog/assets/post03/tablesosanh.png)
 
 # Vấn đề xung đột
 

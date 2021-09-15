@@ -11,7 +11,7 @@ Bài viết này giới thiệu một cách cơ bản về các khái niệm và
 - Đưa dữ liệu vào input layer và lấy dữ liệu ra ở output layer
 - Mỗi layer gồm những unit ⇒ tùy vào kiến trúc mạng, từng bài toán sẽ quy định số unit trong 1 layer
 
-    ![Untitled](/ezdevguy_blog/assets/post01/Untitled.png)
+    ![Untitled](/blog/assets/post01/Untitled.png)
 
 - Output của lớp trước là input của lớp sau, được tính thông qua những weights (đường nối)
 - Quá trình train model ⇒ đưa dữ liệu liên tục để điều chỉnh lại những tham số (weights)
@@ -45,7 +45,7 @@ Bài viết này giới thiệu một cách cơ bản về các khái niệm và
     - Output: Dự đoán bệnh nhân có bị tiểu đường hay không? (Type: Có hoặc không)
     - Nhận định và xử lý data:
 
-    ![Untitled1](/ezdevguy_blog/assets/post01/Untitled1.png)
+    ![Untitled1](/blog/assets/post01/Untitled1.png)
 
 Data ta có được là 1 chuỗi số bao gồm những thông số của bệnh nhân như số lần mang thai, nồng độ glucose, v.v... và giá trị cuối cùng là 0 và 1 tương đương với không mắc và mắc tiểu đường.
 
@@ -54,7 +54,7 @@ Data ta có được là 1 chuỗi số bao gồm những thông số của bệ
 - Load dữ liệu → xây dựng model (xác định số layers, mỗi unit trong 1 layer) → compile model (gán hàm loss, gán hàm optimize...) → train model → đánh giá model (loss, accuracy...) → dự đoán dữ liệu mới → lưu model → load model
 1. Load dữ liệu
 
-    ![Untitled2](/ezdevguy_blog/assets/post01/Untitled2.png)
+    ![Untitled2](/blog/assets/post01/Untitled2.png)
 
 - Chia dữ liệu ra làm 3 tập chính:
     - Train: Dùng để fit dữ liệu vào trong mạng và tối ưu các weights
@@ -114,7 +114,7 @@ model.add(Dense(1, activation='sigmoid'))
     - activation='relu' → hàm kích hoạt relu (phi khử tuyến tính)
     - activation='sigmoid' → hàm kích hoạt sigmoid (hàm đồ thị chặn cho phép chúng ta xác định tính chất dựa trên khoảng giá trị nhất định), hình ví dụ:
 
-    ![Untitled3](/ezdevguy_blog/assets/post01/Untitled3.png)
+    ![Untitled3](/blog/assets/post01/Untitled3.png)
 
 ## Summary Model (optional)
 
