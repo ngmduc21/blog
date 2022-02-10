@@ -1,7 +1,10 @@
-# Hiểu về Blockchain - Chương 1: Cơ bản về Blockchain
-
+---
+title: "Hiểu về Blockchain - Chương 1: Cơ bản về Blockchain"
+date: 2022-02-10
+categories: Blockchain
+---
 Blockchain là một “sổ cái” bất biến và có thể chia sẻ giúp cho quá trình ghi lại các giao dịch và theo dõi tài sản trong một mạng lưới doanh nghiệp. “Tài sản” có thể là vật hữu hình (nhà, xe, đất đai, tiền mặt) hoặc vô hình (sở hữu trí tuệ, bằng sáng chế, bản quyền, thương hiệu...). Nói nôm na, tất cả những thứ mang giá trị đều có thể được theo dõi và giao dịch trên một mạng Blockchain, giảm thiểu rủi ro và chi phí cho các bên liên quan.
-
+<!-- excerpt-end -->
 ## Những thiếu sót của hệ thống giao dịch ngày nay
 
 Trong lịch sử, các phương tiện của niềm tin chẳng hạn như tiền xu, tiền giấy, phiếu séc và hệ thông ngân hàng đã thực hiện việc trao đổi giá trị và bảo vệ người bán và người mua. Các phát minh ngày nay (chẳng hạn điện thoại, hệ thống thẻ tín dụng, Internet và điện thoại di động) đã cải thiện sự tiện lợi, nhanh chóng, hiệu quả và thu hẹp khoảng cách giữa người bán và người mua.
